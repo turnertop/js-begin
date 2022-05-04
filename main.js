@@ -35,3 +35,12 @@ let myAgeInDogYears = earlyYears + laterYears
 const myName = "Eddie".toLowerCase();
 
 console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
+
+let mood = 'sleepy';
+let tirednessLevel = 6;
+
+if (mood === "sleepy" && tirednessLevel > 8) {
+  console.log("time to sleep")
+} else{
+  console.log("not bed time yet")
+}
